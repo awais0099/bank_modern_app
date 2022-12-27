@@ -21,6 +21,12 @@ function App() {
         <div className='xl:max-w-[1280px] w-full'>
           <Stats />
           <Business />
+          <Billing />
+          <CardDeal />
+          <Testimonial />
+          <Client />
+          <CTA />
+          <Footer />
         </div>
       </div>
     </div>

@@ -23,5 +23,6 @@ export {
     CTA,
     Stats,
     Testimonial,
+    FeedBackCard,
     Footer
 }
