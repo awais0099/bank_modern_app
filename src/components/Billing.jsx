@@ -10,7 +10,7 @@ function Billing() {
                 <div className="absolute -left-1/2 bottom-0 w-[50%] h-[50%] pink__gradient z-[0] rounded-full"></div>
             </div>
             <div className='text-white flex-1 flex flex-col items-start justify-center'>
-        		<h2 className='w-full font-poppins font-semibold xs:text-[48px] sm:text-[40px] text-white xs:leading-[76.8px] leading-[66.8px]'>
+        		<h2 className='w-full font-poppins font-semibold xs:text-[48px] sm:text-[40px] text-[28px] text-white xs:leading-[76.8px] sm:leading-[66.8px]'>
         			Easily control your,<br className='sm:block hidden' /> billing & invoicing.
         		</h2>
         		<p className='font-poppins text-dimWhite text-[18px] mt-5 leading-[30.8px] sm:max-w-[470px]'>

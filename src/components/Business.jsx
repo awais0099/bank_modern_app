@@ -6,7 +6,7 @@ function Business() {
     return (
         <section id="features" className='flex md:flex-row flex-col sm:py-16 py-6'>
         	<div className='text-white flex-1 flex flex-col items-start justify-center'>
-        		<h2 className='w-full font-poppins font-semibold xs:text-[48px] sm:text-[40px] text-white xs:leading-[76.8px] leading-[66.8px]'>
+        		<h2 className='w-full font-poppins font-semibold xs:text-[48px] sm:text-[40px] text-[28px] text-white xs:leading-[76.8px] sm:leading-[66.8px]'>
         			You do the business,<br className='sm:block hidden' /> we'll handle the money.
         		</h2>
         		<p className='font-poppins text-dimWhite text-[18px] mt-5 leading-[30.8px] sm:max-w-[470px]'>
@@ -16,7 +16,7 @@ function Business() {
         		</p>
         		<Button styles='mt-10' />
         	</div>
-        	<div className='flex-1 text-white flex items-center sm:mt-0 mt-7'>
+        	<div className='flex-1 text-white flex items-center md:mt-0 mt-7'>
         		<ul className='list-none m-0 p-0'>
         			{features.map((feature,index) => (
 	        			<li key={feature.id} className={`flex justify-center md:items-center items-start md:p-6 py-6 rounded-[20px] feature-card ${index == feature.length - 1 ? 'mb-0':'mb-6'}`}>

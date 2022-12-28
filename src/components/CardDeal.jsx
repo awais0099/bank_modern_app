@@ -4,9 +4,9 @@ import {card} from '../assets';
 
 function CardDeal() {
     return (
-        <section id="features" className='flex md:flex-row flex-col sm:py-16 py-6'>
-        	<div className='text-white flex-1 flex flex-col items-start justify-center'>
-        		<h2 className='w-full font-poppins font-semibold xs:text-[48px] sm:text-[40px] text-white xs:leading-[76.8px] leading-[66.8px]'>
+        <section id="product" className='flex md:flex-row flex-col sm:py-16 py-6'>
+        	<div className='text-white flex-1 flex flex-col items-start justify-center sm:mb-0 mb-10'>
+        		<h2 className='w-full font-poppins font-semibold xs:text-[48px] sm:text-[40px] text-[28px] text-white xs:leading-[76.8px] sm:leading-[66.8px]'>
         			Find better card deal in few easy steps.
         		</h2>
         		<p className='font-poppins text-dimWhite text-[18px] mt-5 leading-[30.8px] sm:max-w-[470px]'>

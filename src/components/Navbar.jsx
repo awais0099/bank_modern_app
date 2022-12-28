@@ -10,7 +10,7 @@ function Navbar() {
             <ul className="list-none sm:flex hidden justify-end items-center flex-1">
                 {navLinks.map((nav, index) => (
                     <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] text-white ${navLinks.length - 1 == index ? 'mr-0':'mr-10'}`}>
-                        <a href={`#${nav.title}`}>{nav.title}</a>
+                        <a href={`#${nav.id}`}>{nav.title}</a>
                     </li>
                 ))}
             </ul>
@@ -26,7 +26,7 @@ function Navbar() {
                     <ul className="list-none flex flex-col justify-end items-center flex-1">
                     {navLinks.map((nav, index) => (
                         <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] text-white ${navLinks.length - 1 == index ? 'mb-0':'mb-4'}`}>
-                            <a href={`#${nav.title}`}>{nav.title}</a>
+                            <a href={`#${nav.id}`}>{nav.title}</a>
                         </li>
                     ))}
                     </ul>

@@ -6,8 +6,8 @@ import {FeedBackCard} from "./index";
 function Testimonial() {
     return (
         <section id="testimononial md:py-16 py-6">
-            <div className="w-full flex flex-row items-center justify-between sm:mb-16 mb-6">
-                <h2 className='w-full font-poppins font-semibold xs:text-[48px] sm:text-[40px] text-white xs:leading-[76.8px] leading-[66.8px]'>
+            <div className="w-full flex md:flex-row flex-col items-center justify-between sm:mb-16 mb-6">
+                <h2 className='w-full font-poppins font-semibold xs:text-[48px] sm:text-[40px] text-[28px] text-white xs:leading-[76.8px] sm:leading-[66.8px] leading-[46.8px]'>
                     What people are <br className="md:block hidden" /> saying about us
                 </h2>
                 <p className='font-poppins text-dimWhite text-[18px] mt-5 leading-[30.8px] sm:max-w-[470px]'>
